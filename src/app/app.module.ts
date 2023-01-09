@@ -66,6 +66,8 @@ import { ToxicologyReportComponent } from './components/pages/toxicology-report/
 import { ToxicologyReportContentComponent } from './components/pages/toxicology-report/toxicology-report-content/toxicology-report-content.component';
 import {MatCheckboxModule} from "@angular/material/checkbox";
 
+import { BreadcrumbComponent } from './components/breadcrumb/breadcrumb.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -91,7 +93,8 @@ import {MatCheckboxModule} from "@angular/material/checkbox";
     ToxicologyGridComponent,
     ToxicologyContainerComponent,
     ToxicologyReportComponent,
-    ToxicologyReportContentComponent
+    ToxicologyReportContentComponent,
+    BreadcrumbComponent,
   ],
     imports: [
         BrowserModule,
